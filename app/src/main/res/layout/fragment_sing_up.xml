@@ -117,7 +117,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/button_singup" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/materialButtonRegistrar"
+                android:id="@+id/button_register"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
