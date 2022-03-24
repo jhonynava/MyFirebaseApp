@@ -51,6 +51,7 @@ class SingUpFragment : Fragment() {
                     task.addOnCompleteListener {
                         if (it.isSuccessful) {
                             navController.navigate(R.id.action_signUpFragment_to_homeFragment)
+                            Toast.makeText(requireContext(), "Creado con exito", Toast.LENGTH_SHORT).show()
                         } else {
                             Toast.makeText(requireContext(), "El correo ya existe", Toast.LENGTH_SHORT).show()
                         }
