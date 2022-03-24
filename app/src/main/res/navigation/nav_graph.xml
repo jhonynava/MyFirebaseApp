@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="mx.kodemia.firebaseapp.ui.singup.view.SingUpFragment"
+        android:name="mx.kodemia.myfirebaseapp.view.SingInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sing_up" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="mx.kodemia.firebaseapp.ui.singin.view.SingInFragment"
+        android:name="mx.kodemia.myfirebaseapp.view.SingInFragment"
         android:label="SignInFragment"
         tools:layout="@layout/fragment_sing_in">
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="mx.kodemia.firebaseapp.ui.home.view.HomeFragment"
+        android:name="mx.kodemia.myfirebaseapp.view.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action

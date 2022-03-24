@@ -8,9 +8,6 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavController
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.launch
 import mx.kodemia.myfirebaseapp.R
 import mx.kodemia.myfirebaseapp.databinding.FragmentSingInBinding
@@ -32,7 +29,8 @@ class SingInFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentSingInBinding.inflate(inflater, container, false)
-        return binding.root
+        val root: View = binding.root
+        return root
     }
 
     private fun initComponents() {
